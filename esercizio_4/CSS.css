@@ -1,0 +1,42 @@
+
+
+
+.background{
+    background-color: #2c316d;
+    background-position: 20px 50%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+}
+
+
+.img{
+    width: 350;
+    height: 150;
+    margin: 10px;
+    padding: 25px;
+    border: 3px solid black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:auto;
+    margin: 10px;
+}
+                       
+
+.font {
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode',
+    Verdana, 
+    sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.dimension{
+    width: auto;
+    height: auto;
+}

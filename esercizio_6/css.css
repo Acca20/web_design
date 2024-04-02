@@ -1,0 +1,30 @@
+.absolute{
+    position: absolute;
+    top: 30px;
+    right: 30;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 100;
+    background-color: aquamarine;
+}
+
+.grissinbon{
+    width: 200px;
+    height: 200px;
+}
+
+.sticky{
+    position: sticky;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}

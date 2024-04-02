@@ -1,0 +1,34 @@
+.banana{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition-delay: 0s;
+    right: 50px;
+    transition-property: initial;
+    transition-timing-function: ease-in-out;
+    transition: transform 1s;
+}
+
+.banana:hover{
+  color: red;
+  transform: translateX(50px);
+}
+.mela {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: mela-animata;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes mela-animata {
+        from {
+            transform: translateX(50px);
+            background-color: green;
+        }
+        end {
+            transform: translateX(0px);
+            background-color: blue;
+        }
+    }

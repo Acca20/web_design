@@ -1,0 +1,44 @@
+h2{
+    margin: 10px;
+    border-radius: 5px;
+    border-color: white;
+    text-align: left;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-shadow: 4px;
+    grid-template-columns: auto;
+}
+
+#image{
+    max-width: fit-content;
+    height: auto;
+    position: relative;
+}
+
+#h3{
+    margin: 10px;
+    display: table-column;
+    border: 4px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: auto;
+    text-shadow: 4px;
+}
+
+
+img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 4px;
+    border-color: rgb(75, 75, 75);
+    align-items: self-end;
+}
+
+body{
+    
+    background-color: rgb(96, 96, 106);
+    border: 4px;
+    border-color:gold
+    
+}
